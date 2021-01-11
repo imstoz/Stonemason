@@ -23,6 +23,7 @@ import Stone20 from '../text-stones/dunn.jpg'
 import Stone21 from '../text-stones/drumachlie.jpg'
 import ScrollToTop from '../ScrollToTop';
 import ModalImage from "react-modal-image";
+import { IoIosArrowUp } from 'react-icons/io'
 
 
 const TextStones = () => {
@@ -167,15 +168,11 @@ const TextStones = () => {
                 hideDownload={true}
                 hideZoom={true}/>
                 </div>
-                {/* <div className="column">
-                <img src={Stone1}/>
-                <img src={Stone1}/>
-                <img src={Stone1}/>
-                <img src={Stone1}/>
-                <img src={Stone1}/>
-                <img src={Stone1}/>
-                </div> */}
                     </div>
+                    
+                    <div className="arrow">
+    <IoIosArrowUp size="65px" className="arrow-up" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>Scroll To Top</IoIosArrowUp>
+    </div>
                 </div>
             </div>
         </>

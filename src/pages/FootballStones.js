@@ -23,6 +23,7 @@ import Stone20 from '../football-stones/manutdceltic.jpg'
 import Stone21 from '../football-stones/tonydufc.jpg'
 import ScrollToTop from '../ScrollToTop';
 import ModalImage from "react-modal-image";
+import { IoIosArrowUp } from 'react-icons/io'
 
 
 const FootballStones = () => {
@@ -168,15 +169,11 @@ const FootballStones = () => {
                 hideDownload={true}
                 hideZoom={true}/>
                 </div>
-                {/* <div className="column">
-                <img src={Stone1}/>
-                <img src={Stone1}/>
-                <img src={Stone1}/>
-                <img src={Stone1}/>
-                <img src={Stone1}/>
-                <img src={Stone1}/>
-                </div> */}
                     </div>
+
+                    <div className="arrow">
+    <IoIosArrowUp size="65px" className="arrow-up" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>Scroll To Top</IoIosArrowUp>
+    </div>
                 </div>
             </div>
         </>

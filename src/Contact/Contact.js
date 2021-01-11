@@ -1,6 +1,7 @@
 import React from 'react'
 import '../App.css';
 
+
 function Contact() {
     return (
         <div className="contact-container" id="contact">
@@ -10,7 +11,8 @@ function Contact() {
                 <div className="signature-img">
 
                 </div>
-                <form action="mailto:markstorrierstonemason@gmail.com" method="POST" encType='text/plain' name='EmailForm' className="contact-wrapper">
+                <form action="mailto:markstorrierstonemason@gmail.com" method="POST" action="../form.php" encType='text/plain' name='EmailForm' className="contact-wrapper">
+                    
                     <input type="text"
                     name="name" placeholder="Full Name"/>
 
@@ -22,8 +24,10 @@ function Contact() {
                     <button class="submit-btn" type="submit">Send Message</button>
                 </form>
             </div>
+            
         </div>
     )
 }
 
 export default Contact 
+
