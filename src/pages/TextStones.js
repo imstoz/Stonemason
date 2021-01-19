@@ -24,6 +24,7 @@ import Stone21 from '../text-stones/drumachlie.jpg'
 import ScrollToTop from '../ScrollToTop';
 import ModalImage from "react-modal-image";
 import { IoIosArrowUp } from 'react-icons/io'
+import Footer from './Footer';
 
 
 const TextStones = () => {
@@ -175,6 +176,7 @@ const TextStones = () => {
     </div>
                 </div>
             </div>
+            <Footer/>
         </>
     );
 }

@@ -24,6 +24,7 @@ import Stone21 from '../football-stones/tonydufc.jpg'
 import ScrollToTop from '../ScrollToTop';
 import ModalImage from "react-modal-image";
 import { IoIosArrowUp } from 'react-icons/io'
+import Footer from './Footer';
 
 
 const FootballStones = () => {
@@ -176,6 +177,7 @@ const FootballStones = () => {
     </div>
                 </div>
             </div>
+            <Footer />
         </>
     );
 }

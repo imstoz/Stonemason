@@ -16,6 +16,7 @@ import Stone13 from '../music-stones/TheJamArrow.jpg'
 import ModalImage from "react-modal-image";
 import ScrollToTop from '../ScrollToTop';
 import { IoIosArrowUp } from 'react-icons/io'
+import Footer from './Footer';
 
 const MusicStones = () => {
     return (
@@ -115,6 +116,7 @@ const MusicStones = () => {
     </div>
                 </div>
             </div>
+            <Footer/>
         </>
         );
     }

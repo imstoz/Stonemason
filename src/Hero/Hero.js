@@ -11,7 +11,7 @@ function Hero() {
                 <h2 className="hero-tag"><span>Stone</span>mason</h2>
                 <p className="hero-p">With over 30 years of experiance as a Stonemason. Personalized hand-crafted stones in a size of your choice.
                 </p>
-                <button><a href="#pricing">Pricing Options</a></button>
+                <button className="button"><a href="#pricing">Pricing Options</a></button>
                 </div>
             <div className="right-hero">
                 <div className="hero-img-container">

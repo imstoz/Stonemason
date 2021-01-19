@@ -50,9 +50,9 @@ export const NavbarContainer = styled.div`
     justify-content: space-between;
     height: 80px;
     z-index: 1;
-    width: 100%;
+    width: 1141px;
     padding: 0;
-    max-width: 1100px;
+    max-width: 1141px;
     align-items: center;
     position: relative;
     
@@ -90,9 +90,8 @@ export const MobileIcon = styled.div`
 
 export const NavMenu = styled.ul`
 top: 1.8rem;
-right: 3rem;
     display: flex;
-    position: absolute;
+    position: relative;
     list-style: none;
     text-align: center;
 
